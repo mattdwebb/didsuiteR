@@ -1,0 +1,7 @@
+export(did_suite)
+export(discover_estimators)
+export(assignment_set)
+export(export_results)
+S3method(print,didsuite_result)
+importFrom(stats,setNames)
+

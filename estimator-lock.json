@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "status": "Exact bundled review commits; use sibling sources until these commits are published",
+  "estimators": [
+    {
+      "repository": "mattdwebb/fasttwfeR",
+      "package": "fasttwfeR",
+      "version": "0.1.0",
+      "commit": "4499eb89511376ea6c02e277ed4ebed1644170b0"
+    },
+    {
+      "repository": "mattdwebb/fastdid2sR",
+      "package": "fastdid2sR",
+      "version": "0.1.0",
+      "commit": "f5bc70ea1eaada650386345dd191cb88ed4b5ee4"
+    },
+    {
+      "repository": "mattdwebb/fastbjsR",
+      "package": "fastbjsR",
+      "version": "0.1.0",
+      "commit": "ce0e3c3ec01470aeb64c984c664701340db24917"
+    },
+    {
+      "repository": "mattdwebb/fastflexR",
+      "package": "fastflexR",
+      "version": "0.1.0",
+      "commit": "e3a689329d93059edb46589f92067726edc6830a"
+    },
+    {
+      "repository": "mattdwebb/fastcsdid",
+      "package": "fastrcsdid",
+      "version": "1.0.1",
+      "commit": "bf4a7ada2e3e0dabaa693a050ab3f6df32416904",
+      "subdirectory": "R",
+      "sibling_directory": "fastcsdid/R",
+      "tag": "v1.0.1",
+      "tag_status": "planned; not yet created"
+    },
+    {
+      "repository": "mattdwebb/suiteundidR",
+      "package": "suiteundidR",
+      "version": "0.1.0",
+      "commit": "184b8c120bc9e6d06f27d44081b3cbecb3e01685"
+    },
+    {
+      "repository": "mattdwebb/suitedidintR",
+      "package": "suitedidintR",
+      "version": "0.1.0",
+      "commit": "921579257042d806772da828edf5b717d3d06238"
+    },
+    {
+      "repository": "mattdwebb/faststackedR",
+      "package": "faststackedR",
+      "version": "0.1.0",
+      "commit": "29ef8dd38f6be1dcef546d2d174c78b5cd1da7e6"
+    },
+    {
+      "repository": "mattdwebb/fastlpdidR",
+      "package": "fastlpdidR",
+      "version": "0.1.0",
+      "commit": "fe374393de6e3702e423815c0960d94d4a5c451e"
+    }
+  ]
+}

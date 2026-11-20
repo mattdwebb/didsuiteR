@@ -1,0 +1,16 @@
+Package: didsuiteR
+Title: Native Difference-in-Differences Comparison Harness
+Version: 0.1.0
+Authors@R: person("Matthew D.", "Webb", email="matt.webb@carleton.ca", role=c("aut","cre"))
+Description: Runs independently installed R difference-in-differences estimators
+    through an explicit comparison contract. Provides treatment validation,
+    shared assignments, complete physical delete-cluster jackknives, randomization
+    inference and isolated per-method failures. Development software with
+    documented unsupported combinations, not a universal certification.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: stats, utils, digest, jsonlite
+Suggests: fastrcsdid, fasttwfeR, fastdid2sR, fastbjsR, fastflexR,
+    faststackedR, fastlpdidR, suiteundidR, suitedidintR
+

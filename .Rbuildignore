@@ -1,0 +1,9 @@
+^\.library$
+^\.check$
+^\.git$
+^\.github$
+^\.gitignore$
+^scripts$
+^validation$
+^estimator-lock\.json$
+^CITATION\.cff$

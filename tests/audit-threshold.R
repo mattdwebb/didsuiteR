@@ -1,0 +1,6 @@
+library(didsuiteR)
+p <- list(data=data.frame(cluster=1:6,.didsuite_g=c(3,3,3,0,0,0)),cluster='cluster')
+adapter <- function(pp,options,native) list(estimate=1+sum(pp$data$cluster)*1e-16)
+err <- tryCatch(didsuiteR:::.jack(adapter,p,list(),list(estimate=1),0),error=identity)
+stopifnot(inherits(err,'error'),grepl('Zero jackknife variance',conditionMessage(err)))
+cat('DIDSUITE_AUDIT_THRESHOLD_PASS\n')
