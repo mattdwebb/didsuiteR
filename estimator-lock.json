@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "Exact bundled review commits; use sibling sources until these commits are published",
+  "status": "Pinned commits in the live private replacement repositories; canonical public Fast CSDID v1.0.1",
   "estimators": [
     {
       "repository": "mattdwebb/fasttwfeR",
@@ -34,19 +34,19 @@
       "subdirectory": "R",
       "sibling_directory": "fastcsdid/R",
       "tag": "v1.0.1",
-      "tag_status": "planned; not yet created"
+      "tag_status": "published; annotated v1.0.1 resolves to the pinned commit; immutable"
     },
     {
       "repository": "mattdwebb/suiteundidR",
       "package": "suiteundidR",
       "version": "0.1.0",
-      "commit": "184b8c120bc9e6d06f27d44081b3cbecb3e01685"
+      "commit": "3282b5f338e83d8caeeca501638af2648af38db2"
     },
     {
       "repository": "mattdwebb/suitedidintR",
       "package": "suitedidintR",
       "version": "0.1.0",
-      "commit": "921579257042d806772da828edf5b717d3d06238"
+      "commit": "7447642bb4db097e17d2002b27bbde1f2bd16ee8"
     },
     {
       "repository": "mattdwebb/faststackedR",
@@ -58,7 +58,7 @@
       "repository": "mattdwebb/fastlpdidR",
       "package": "fastlpdidR",
       "version": "0.1.0",
-      "commit": "fe374393de6e3702e423815c0960d94d4a5c451e"
+      "commit": "56e83a78dd9bf1e08a8063272b5289552f947a1e"
     }
   ]
 }

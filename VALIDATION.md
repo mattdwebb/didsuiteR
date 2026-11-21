@@ -27,3 +27,16 @@ Remaining: broader adversarial/external-oracle coverage, harmonized common targe
 and sample intersection, distinct assignment/inference units, full package-option
 parity, optimized production-size performance. GitHub CI only runs public harness
 dependencies unless estimator backends are separately installed.
+
+## Cross-language summary status (P-5)
+
+Python and R summarize unavailable requested inference differently. Python uses
+`PASS` when the point estimate and supported requested calculations succeed;
+unsupported native inference is recorded as `UNSUPPORTED` in each method's
+details and as N/A in the summary. R uses `PARTIAL` if any requested method is
+unavailable, including native inference for the UN-DID and DID-INT aggregates.
+The available estimates and standard errors agree; the label difference does
+not indicate an additional R estimation failure. Compare method-level statuses
+and values, not just the row label. If only supported methods are requested,
+both languages report `PASS`. Neither language supplies an invented native SE
+or discards failed required jackknife deletions to obtain a passing row.

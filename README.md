@@ -141,7 +141,7 @@ Current candidate checks: [release validation](RELEASE_VALIDATION.md).
 ### CSDID dependency
 
 Install the canonical public CSDID package with
-`remotes::install_github("mattdwebb/fastcsdid", subdir = "R")`.
+`remotes::install_github("mattdwebb/fastcsdid", ref = "v1.0.1", subdir = "R")`.
 The separate research repository named `fastrcsdid` is not a suite dependency.
 
 
